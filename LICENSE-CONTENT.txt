@@ -1,0 +1,20 @@
+© 2026 notSumiko
+All rights reserved.
+
+### Source Code
+
+The source code of this website is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
+
+You are free to use, study, modify, and redistribute the source code under the terms and conditions of the GPL v3.0.
+
+### Original Content
+
+Artwork, characters, character designs, writing, illustrations, graphics, music, images, and other original creative content created by Sumiko / Antonella are **NOT covered by the GPL** and remain protected by copyright.
+
+Unless otherwise stated, this content may not be reproduced, modified, redistributed, republished, or used commercially without permission from the copyright holder.
+
+### Third-Party Content
+
+Any third-party content included in this website remains subject to its original copyright and license terms. The licenses of third-party materials are not changed by this project.
+
+For the full terms of the source-code license, see the `LICENSE` file.
