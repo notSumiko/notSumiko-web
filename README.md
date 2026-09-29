@@ -1,4 +1,4 @@
-# paginitam
+# :3
 
 ## Licensing
 
@@ -11,8 +11,6 @@ See [`LICENSE`](./LICENSE) for the full license.
 ### Content
 
 Artwork, characters, character designs, writing, illustrations, graphics, music, images, and other original creative content by **notSumiko** are **not covered by the GPL** and remain protected by copyright.
-
-This includes the character **Sumiko** and related creative works.
 
 See [`LICENSE-CONTENT.md`](./LICENSE-CONTENT.md) for the full content license.
 
