@@ -1,24 +1,24 @@
 Copyright © 2026 notSumiko
 All rights reserved.
 
-## Original Content
+Original Content
 
-Artwork, characters, character designs, writing, illustrations, graphics, music, images, and other original creative content created by notSumiko are **not covered by the GNU General Public License** and remain protected by copyright.
+Artwork, characters, character designs, writing, illustrations, graphics, music, images, and other original creative content created by notSumiko are not covered by the GNU General Public License and remain protected by copyright.
 
 Unless otherwise stated, this content may not be reproduced, modified, redistributed, republished, used in derivative works, or used commercially without prior permission from the copyright holder.
 
-## Source Code
+Source Code
 
-The source code of this website is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
+The source code of this website is licensed under the GNU General Public License v3.0 (GPL-3.0).
 
 The GPL applies only to the source code and does not apply to the original creative content described above.
 
 You are free to use, study, modify, and redistribute the source code under the terms and conditions of the GPL v3.0.
 
-## Third-Party Content
+Third-Party Content
 
 Any third-party content included in this project remains subject to its respective copyright and license terms.
 
 Third-party licenses and copyrights are not changed or overridden by this project.
 
-For the full terms of the source-code license, see the `LICENSE` file.
+For the full terms of the source-code license, see the LICENSE file.
