@@ -14,7 +14,7 @@ Artwork, characters, character designs, writing, illustrations, graphics, music,
 
 This includes the character **Sumiko** and related creative works.
 
-See [`LICENSE-CONTENT.txt`](./LICENSE-CONTENT.txt) for the full content license.
+See [`LICENSE-CONTENT.md`](./LICENSE-CONTENT.md) for the full content license.
 
 ### Third-Party Content
 
