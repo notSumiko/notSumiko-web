@@ -1,7 +1,350 @@
+/* ═══════════════════════════════════════
+                VARIABLES
+   ═══════════════════════════════════════ */
+
+:root {
+    --text: #FFE7EE;
+    --white: #FFFFFF;
+    --pink: #F3A3C4;
+    --black: #000000;
+}
+
+
+/* ═══════════════════════════════════════
+                  BASE
+   ═══════════════════════════════════════ */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+}
+
 body {
-    background: #111;
-    color: white;
-    font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    font-family: Verdana, Arial, sans-serif;
+    background:
+        url("https://i.pinimg.com/736x/31/d6/f3/31d6f3d6b8b61bede2d7f6c71e14137d.jpg")
+        top left / cover
+        no-repeat
+        fixed;
+    background-color: var(--black);
+    color: var(--text);
+}
+
+
+/* ═══════════════════════════════════════
+                  WRAPPER
+   ═══════════════════════════════════════ */
+
+#wrapper {
+    width: min(900px, 95%);
+    margin: 20px auto;
+}
+
+
+/* ═══════════════════════════════════════
+                  HEADER
+   ═══════════════════════════════════════ */
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.header-sidebox {
+    width: 120px;
+    min-height: 80px;
+    border: 1px solid var(--white);
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px var(--white);
+}
+
+
+.header {
+    flex: 1;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background:
+        url("https://i.pinimg.com/736x/e1/4d/57/e14d57babe1a6e7027cfe41f9c205423.jpg")
+        center / cover;
+    border: 1px solid var(--white);
+    border-radius: 8px;
+    box-shadow: 0 0 10px var(--white);
+}
+
+
+.header h1 {
+    margin: 0;
+    color: var(--text);
+    font-family: Georgia, "Book Antiqua", serif;
+    font-size: 42px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px var(--black),
+        0 0 5px var(--black);
+}
+
+
+/* ═══════════════════════════════════════
+                  LAYOUT
+   ═══════════════════════════════════════ */
+
+#layout {
+    display: grid;
+    grid-template-columns: 180px minmax(0, 1fr) 180px;
+    gap: 15px;
+    align-items: start;
+}
+
+
+/* ═══════════════════════════════════════
+              LEFT SIDEBAR
+   ═══════════════════════════════════════ */
+
+.sidebar-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+/* ═══════════════════════════════════════
+               MAIN CONTENT
+   ═══════════════════════════════════════ */
+
+main {
+    min-width: 0;
+    padding: 15px;
+    background:
+        url("https://i.pinimg.com/736x/4f/2a/4c/4f2a4c17f863ccc2f87775face203897.jpg")
+        center / auto;
+    border: 1px solid var(--white);
+    border-radius: 8px;
+    box-shadow: 0 0 10px var(--white);
+    color: var(--text);
+    text-shadow: 1px 1px var(--black);
+}
+
+
+/* ═══════════════════════════════════════
+             RIGHT SIDEBAR
+   ═══════════════════════════════════════ */
+
+.sidebar-right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+/* ═══════════════════════════════════════
+                  BOXES
+   ═══════════════════════════════════════ */
+
+.box {
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.55);
+    border: 1px solid var(--white);
+    border-radius: 8px;
+    box-shadow: 0 0 8px var(--white);
+    color: var(--text);
+}
+
+
+/* ═══════════════════════════════════════
+               NAVIGATION
+   ═══════════════════════════════════════ */
+
+.nav {
+    padding: 10px;
+    font-family: Tahoma, Arial, sans-serif;
+    background:
+        url("https://i.pinimg.com/736x/e1/4d/57/e14d57babe1a6e7027cfe41f9c205423.jpg")
+        center / cover;
+    border: 1px solid var(--white);
+    border-radius: 8px;
+    box-shadow: 0 0 8px var(--white);
+}
+
+
+.nav-title {
+    padding: 5px;
+    color: var(--white);
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
     text-align: center;
-    padding-top: 100px;
+    border-bottom: 1px solid var(--white);
+}
+
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 10px;
+}
+
+
+.nav-links a {
+    padding: 5px;
+    color: var(--white);
+    text-decoration: none;
+    text-shadow:
+        0 0 2px var(--black),
+        0 0 2px var(--black);
+}
+
+
+.nav-links a:hover {
+    color: var(--pink);
+    font-style: italic;
+}
+
+
+/* ═══════════════════════════════════════
+                 GALLERY
+   ═══════════════════════════════════════ */
+
+.gallery {
+    margin-top: 15px;
+}
+
+
+/* ═══════════════════════════════════════
+                  TEXT
+   ═══════════════════════════════════════ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: var(--text);
+}
+
+
+h2,
+h3 {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+
+p {
+    font-family: Verdana, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+
+.monospace {
+    font-family: "Courier New", "Lucida Console", monospace;
+}
+
+
+.old-web {
+    font-family: "Comic Sans MS", "Trebuchet MS", cursive;
+}
+
+
+.banner-text {
+    font-family: Impact, "Arial Black", sans-serif;
+}
+
+
+.fancy-text {
+    font-family: Georgia, "Book Antiqua", serif;
+}
+
+
+.y2k-text {
+    font-family: "Century Gothic", Arial, sans-serif;
+}
+
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: var(--pink);
+}
+
+
+/* ═══════════════════════════════════════
+                  FOOTER
+   ═══════════════════════════════════════ */
+
+footer {
+    margin-top: 15px;
+    padding: 10px;
+    color: var(--text);
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/* ═══════════════════════════════════════
+                SCROLLBAR
+   ═══════════════════════════════════════ */
+
+::-webkit-scrollbar {
+    width: 12px;
+    background: var(--white);
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: var(--pink);
+    border-radius: 10px;
+    box-shadow:
+        inset 0 0 6px rgb(102 0 0 / 30%);
+}
+
+
+::-webkit-scrollbar-track {
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow:
+        inset 0 0 6px rgb(0 0 0 / 30%);
+}
+
+
+/* ═══════════════════════════════════════
+             RESPONSIVE
+   ═══════════════════════════════════════ */
+
+@media (max-width: 800px) {
+
+    #layout {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar-left,
+    .sidebar-right {
+        width: 100%;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .header-sidebox {
+        width: 100%;
+    }
 }
